@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // Para ver, leer, observar el estado
+    // Para ver, leer, observar el estado, para leer y modificar estado se puede usar .watch
     final int _counter = context.watch<CounterProvider>().counter;
     // Para cambiar el estado
     final _increment = context.read<CounterProvider>().increment;
